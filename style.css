@@ -1,0 +1,38 @@
+:root {
+  --primary: #0f172a;
+  --secondary: #1e293b;
+  --accent: #38bdf8;
+  --light: #f8fafc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.principal {
+  position: relative; 
+  display: inline-block;
+}
+
+.img {
+  height: 500px;
+  width: 1350px;
+}
+.texto-sobre-imagem {
+  position: absolute; 
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5); 
+  padding: 10px; 
+  font-family: OCR A Std, monospace;
+  font-size: 25px;
+}
